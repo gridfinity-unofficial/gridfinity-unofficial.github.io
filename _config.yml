@@ -2,5 +2,5 @@ remote_theme: pages-themes/slate@v0.2.0
 plugins:
 - jekyll-remote-theme
 
-title: "Gridfinity :: modular storage system"
-description: The best things in life are integer multiples of 42x42x7mm.
+title: "Gridfinity"
+description: The modular, open-source grid storage system for your workshop.
