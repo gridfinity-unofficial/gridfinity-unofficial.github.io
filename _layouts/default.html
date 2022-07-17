@@ -12,19 +12,34 @@
 	</head>
 
 <body>
-  <nav>
-    {% for item in site.data.navigation %}
-      <a href="{{ item.link }}" {% if item.link == page.url %}class="active"{% endif %}>
-        {{ item.name }}
-      </a>
-    {% endfor %}
-  </nav>
+	<nav>
+	      <ul>
+	        {% for item in site.data.menu %}
+	        <li><a class="{% if page.url == item.link %}active{% endif %}" href="{{item.link}}">{{item.title}}</a></li>
+	        {% endfor %}
+	      </ul>
+	    </nav>
 
+	    {{content}}
 
-
-
-
-{{content}}
-
-</body>
-</html>
+	    <style>
+	      nav ul {
+	        display: flex;
+	        list-style: none;
+	      }
+	      nav ul li {
+	        margin-right: 10px;
+	      }
+	      nav ul li a {
+	        text-decoration: none;
+	        color: green;
+	      }
+	      nav ul li a:hover {
+	        text-decoration: underline;
+	      }
+	      .active {
+	        text-decoration: underline;
+	      }
+	    </style>
+	  </body>
+	</html>
