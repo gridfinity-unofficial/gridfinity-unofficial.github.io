@@ -1,0 +1,64 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+
+.alert, .callout {
+    overflow: hidden;
+}
+.alert-warning {
+    background-color: #fcf8e3;
+    border-color: #fbeed5;
+    color: #c09853;
+}
+.alert-info {
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+    color: #3a87ad;
+}
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.alert-warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+.jumbo-link {
+    display: inline-block;
+    text-decoration: none;
+    outline: none;
+}
+a.jumbo-link > img {
+    margin: 2px;
+}
+a.jumbo-link:hover > img {
+    margin:  0px;
+    border: 2px solid #aaaaaa;
+}
+
+.jumbo-text {
+    width:  200px;
+    height: 200px;
+    overflow: hidden;
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="48"
+   width="48"
+   version="1.1"
+   id="svg35"
+   sodipodi:docname="spec_img.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs39" />
+  <sodipodi:namedview
+     id="namedview37"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="8.5"
+     inkscape:cx="73.117647"
+     inkscape:cy="26.470588"
+     inkscape:window-width="1916"
+     inkscape:window-height="1028"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg35" />
+  <path
+     d="m 16.716249,26.133653 v -2.87146 l 4.01069,-3.570918 -3.700585,-3.313223 q -0.186063,-0.165662 -0.279095,-0.368136 -0.09303,-0.202475 -0.09303,-0.40495 0,-0.202475 0.09303,-0.404949 0.09303,-0.202475 0.279095,-0.368136 l 1.86063,-1.675019 q 0.186062,-0.165661 0.413473,-0.248492 0.22741,-0.08283 0.454821,-0.08283 0.22741,0 0.465157,0.08283 0.237747,0.08283 0.42381,0.248492 l 3.721259,3.313223 4.072712,-3.626139 q 0.103368,-0.09203 0.206737,-0.119644 0.103368,-0.02761 0.22741,-0.02761 0.124042,0 0.22741,0.02761 0.103368,0.02761 0.206737,0.119644 l 2.336124,2.079968 q 0.103368,0.09203 0.134379,0.184068 0.03101,0.09203 0.03101,0.202475 0,0.110441 -0.03101,0.202475 -0.03101,0.09203 -0.134379,0.184068 l -4.072712,3.626139 3.721259,3.313223 q 0.186063,0.165661 0.279095,0.377339 0.09303,0.211678 0.09303,0.414153 0,0.202475 -0.09303,0.40495 -0.09303,0.202475 -0.279095,0.368136 l -1.86063,1.638204 q -0.186062,0.165661 -0.413473,0.248492 -0.22741,0.08283 -0.45482,0.08283 -0.227411,0 -0.454821,-0.08283 -0.22741,-0.08283 -0.413473,-0.248492 l -3.721259,-3.294816 -4.031364,3.589325 z m 4.899658,-7.233871 1.86063,-1.656611 -1.509178,-1.343696 -0.992336,0.883526 -0.868294,-0.773085 0.992337,-0.883527 -1.323115,-1.178035 -1.86063,1.656612 z m 6.905003,6.166277 1.86063,-1.656612 -1.323114,-1.178035 -0.992336,0.883527 -0.868294,-0.773086 0.992336,-0.883526 -1.509178,-1.343696 -1.860629,1.656612 z m -10.564241,-0.03682 h 1.447156 l 8.579571,-7.638819 -1.447157,-1.288475 -8.57957,7.63882 z m 10.89502,-8.411901 1.447157,-1.288475 -1.447157,-1.288476 -1.447156,1.288476 z"
+     id="path33"
+     style="stroke-width:0.390147" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.57309px;line-height:1.25;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0893269"
+     x="23.159174"
+     y="32.532383"
+     id="text2389"
+     transform="scale(1.0401544,0.96139574)"><tspan
+       sodipodi:role="line"
+       id="tspan2387"
+       x="23.159174"
+       y="32.532383"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono';text-align:center;text-anchor:middle;stroke-width:0.0893269">TECHNICAL</tspan><tspan
+       sodipodi:role="line"
+       x="23.159174"
+       y="36.998745"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono';text-align:center;text-anchor:middle;stroke-width:0.0893269"
+       id="tspan20871">SPECIFICATION</tspan></text>
+</svg>
