@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="850"
+   height="400"
+   viewBox="0 0 224.89641 105.83356"
+   version="1.1"
+   id="svg275"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="gf_logo_without_label.svg"
+   inkscape:export-filename="gf_temp_logo.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview277"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.75455247"
+     inkscape:cx="66.264444"
+     inkscape:cy="565.89835"
+     inkscape:window-width="2160"
+     inkscape:window-height="3746"
+     inkscape:window-x="3829"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:showpageshadow="2" />
+  <defs
+     id="defs272" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#1cff55;fill-opacity:1;stroke:#004d13;stroke-width:20.1416;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect3586"
+       width="60.670837"
+       height="92.97718"
+       x="-82.184662"
+       y="115.59095"
+       ry="26.274658"
+       transform="rotate(-90)" />
+    <rect
+       style="fill:#1cff55;fill-opacity:1;stroke:#004d13;stroke-width:20.1416;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect3528"
+       width="60.670837"
+       height="92.97718"
+       x="-82.184662"
+       y="16.89933"
+       ry="26.274658"
+       transform="rotate(-90)" />
+    <path
+       style="fill:#007012;fill-opacity:1;stroke:#004d13;stroke-width:20.1416;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       d="m 168.14246,51.849243 h 29.72642"
+       id="path3532" />
+  </g>
+</svg>
