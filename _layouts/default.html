@@ -22,38 +22,13 @@
     <div id="header_wrap" class="outer">
         <header class="inner">
 
-          <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
+          <h1 id="project_title" onclick="location.href='/';" style="cursor: pointer;"><img class="logo" src="/assets/svg/gf_logo_without_label.svg" alt = "logo" width="200"> {{ site.title | default: site.github.repository_name }}</h1>
           <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
 
 
 
         </header>
     </div>
-
-    <header  class="navigation">
-
-        <img class="logo" src="/assets/svg/catalog_img.svg" alt = "logo">
-
-        <nav>
-            <ul class="nav__links">
-
-                <li><a href="#">Home</a></li>
-
-                <li><a href="#">Catalog</a></li>
-
-                <li><a href="#">Specification</a></li>
-
-                <li><a href="#">FAQ</a></li>
-
-
-
-            </ul>
-        </nav>
-
-        <a class="cta" href="#"><button>Contact</button></a>
-
-
-    </header>
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">

@@ -39,7 +39,12 @@
 
 
 
-
+.logo {
+    display: inline-block;
+    vertical-align:middle;
+    box-shadow: none !important;
+    border: none;
+}
 
 
 
@@ -67,13 +72,9 @@ a.jumbo-link:hover > img {
 /* sytle for nav*/
 .navigation{
     display: flex;
-
     justify-content: space-between;
-
     align-items: center;
-
     padding: 30px 10%;
-
 }
 
 
