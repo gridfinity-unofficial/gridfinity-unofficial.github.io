@@ -62,3 +62,79 @@ a.jumbo-link:hover > img {
     height: 200px;
     overflow: hidden;
 }
+
+
+
+/* FAQ */
+
+
+
+
+.accordion-item{
+    background-color: aqua;
+    border-radius: .4rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    box-shadow: 0.5rem 2px 0.5rem rgba(0,0,0,0.1);
+}
+
+
+.accordion-link{
+    font-size: 1.6rem;
+    color: white;
+    text-decoration: none;
+    background-color: #283042;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.accordion-link i{
+    color: pink;
+    padding: 0.5rem;
+}
+
+.accordion-link .ion-md-remove{
+    display: none;
+}
+
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    background-color: #212838;
+    transition: max-height 650ms;
+}
+
+
+
+.answer::before{
+    content: "";
+    position: absolute;
+    width: 0.6rem;
+    height: 90%;
+    background-color: gray;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.answer p{
+    color: white;
+    font-size: 1.4rem;
+    padding: 2rem;
+}
+
+.accordion-item:target .answer{
+
+    max-height: 20rem;
+
+
+}
+
+
+
+
+}
