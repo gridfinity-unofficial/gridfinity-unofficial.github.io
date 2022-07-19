@@ -65,10 +65,10 @@ a.jumbo-link:hover > img {
 
 
 
-/* FAQ */
+/* FAQ accordion */
 
 
-
+/* TODO: Make look better and close if not clicked maybe add + - */
 
 .accordion-item{
     background-color: aqua;
@@ -91,14 +91,6 @@ a.jumbo-link:hover > img {
     padding: 1rem 0;
 }
 
-.accordion-link i{
-    color: pink;
-    padding: 0.5rem;
-}
-
-.accordion-link .ion-md-remove{
-    display: none;
-}
 
 .answer{
     max-height: 0;
