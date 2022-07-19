@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="98mm"
+   height="55mm"
+   viewBox="0 0 98 55"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="drawing.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.2938725"
+     inkscape:cx="396.4842"
+     inkscape:cy="561.1063"
+     inkscape:window-width="3840"
+     inkscape:window-height="2066"
+     inkscape:window-x="-11"
+     inkscape:window-y="1231"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : -93.500005 : 1"
+       inkscape:vp_y="0 : 999.99996 : 0"
+       inkscape:vp_z="210.00012 : -93.500005 : 1"
+       inkscape:persp3d-origin="105.00001 : -142.99999 : 1"
+       id="perspective273" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;stroke-width:0.264583"
+       x="44.82473"
+       y="96.30088"
+       id="text329"><tspan
+         id="tspan327"
+         style="stroke-width:0.264583"
+         sodipodi:role="line"
+         x="44.82473"
+         y="96.30088"></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:50.8px;fill:#000000;stroke-width:0.264583"
+       x="-0.35747728"
+       y="41.017078"
+       id="text389"><tspan
+         sodipodi:role="line"
+         id="tspan387"
+         style="font-size:50.8px;stroke-width:0.264583"
+         x="-0.35747728"
+         y="41.017078">FAQ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:50.8px;fill:#000000;stroke-width:0.264583"
+       x="-0.35747728"
+       y="41.017078"
+       id="text393"><tspan
+         sodipodi:role="line"
+         id="tspan391"
+         style="font-size:50.8px;stroke-width:0.264583"
+         x="-0.35747728"
+         y="41.017078">FAQ</tspan></text>
+  </g>
+</svg>
