@@ -6,4 +6,28 @@ permalink: /catalog/
   <div class="alert alert-info">
     <i class="fa fa-info"></i>
     <b>The catalog is a work in progress!</b> Come join us on <a href="https://discord.com/invite/voidstarlab">#gridfinity</a> in Zack's discord to share your designs and we'll make sure they get added here when its ready!
+
+    <h1>BEGIN testing list</h1> <button type="button" onclick="showHide()">Show/Hide</button>
+    <script>
+      function showHide() {
+        var element = document.getElementById("unhideme")
+	element.hidden = !element.hidden;
+      }
+    </script>
+    <ul id="unhideme" hidden>
+      {% for model in site.data.models.items %}
+        <li>
+	  <pre>DEBUG: {{ model }}</pre>
+	  <a href="{{ model.url }}">
+	  <img src="{{ model.image_url  }}" style="height:100px;width:100px">
+	  <br>
+	  {{ model.name }}
+	  </a>
+	   by {{ model.creator }}
+	  <br>
+	  <pre>{{ model.description }}</pre>
+	  <hr>
+        </li>
+      {% endfor %}
+    </ul>
   </div>
