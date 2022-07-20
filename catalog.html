@@ -25,9 +25,9 @@ permalink: /catalog/
 	  </a>
 	   by {{ model.creator }}
 	  <br>
-	  {% markdown %}
-	  {{ model.description }}
-	  {% endmarkdown %}
+	  <div markdown="1">
+	    {{ model.description }}
+  	  </div>
 	  <hr>
         </li>
       {% endfor %}
