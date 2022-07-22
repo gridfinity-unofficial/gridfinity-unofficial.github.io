@@ -30,9 +30,12 @@ permalink: /catalog/
                     "columns": [
                         {"title": "Part", "data": null,
                           render: function(data) {
-                            return '<a href="' + data.url + '"><img class="catalog-img" src="'+data.image_url+'"></a>'
+                            return '<a href="' + data.url + '"><img class="catalog-img" src="'+data.image_url+'"></a>';
                         }},
-                        {"title": "Name", "data": { "_": "name"}},
+                        {"title": "Name", "data": null,
+                          render: function(data) {
+                            return data.name + ' <a href="' + data.url + '"><i class="fa fa-external-link"></i></a>';
+                        }},
                         {"title": "Creator", "data": { "_": "creator"}},
                         {"title": "#X", "data": { "_": "grid_x"}},
                         {"title": "#Y", "data": { "_": "grid_y"}},
