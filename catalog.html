@@ -17,29 +17,29 @@ permalink: /catalog/
   </div>
 
   <script type="text/javascript">
-            $.ajax({
-              url: "https://raw.githubusercontent.com/gridfinity-unofficial/data/main/models.json",
-            })
-              .done(function( data ) {
-                var data = JSON.parse(data);
-                console.log(data);
-                var list = Object.entries(data).map((e) => e[1]);
-                console.log(list);
-                $('#catalogTable').dataTable( {
-                    "data": list,
-                    "columns": [
-                        {"title": "Part", "data": null,
-                          render: function(data) {
-                            return '<a href="' + data.url + '"><img class="catalog-img" src="'+data.image_url+'"></a>';
-                        }},
-                        {"title": "Name", "data": null,
-                          render: function(data) {
-                            return data.name + ' <a href="' + data.url + '"><i class="fa fa-external-link"></i></a>';
-                        }},
-                        {"title": "Creator", "data": { "_": "creator"}},
-                        {"title": "#X", "data": { "_": "grid_x"}, "defaultContent": ""},
-                        {"title": "#Y", "data": { "_": "grid_y"}, "defaultContent": ""},
-                    ],
-                } );
-            });
+    $.ajax({
+      url: "https://raw.githubusercontent.com/gridfinity-unofficial/data/main/models.json",
+    })
+      .done(function( data ) {
+        var data = JSON.parse(data);
+        console.log(data);
+        var list = Object.entries(data).map((e) => e[1]);
+        console.log(list);
+        $('#catalogTable').dataTable( {
+            "data": list,
+            "columns": [
+                {"title": "Part", "data": null,
+                  render: function(data) {
+                    return '<a href="' + data.url + '"><img class="catalog-img" src="'+data.image_url+'"></a>';
+                }},
+                {"title": "Name", "data": null,
+                  render: function(data) {
+                    return data.name + ' <a href="' + data.url + '"><i class="fa fa-external-link"></i></a>';
+                }},
+                {"title": "Creator", "data": { "_": "creator"}},
+                {"title": "#X", "data": { "_": "grid_x"}, "defaultContent": ""},
+                {"title": "#Y", "data": { "_": "grid_y"}, "defaultContent": ""},
+            ],
+        } );
+    });
   </script>

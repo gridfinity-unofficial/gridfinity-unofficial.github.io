@@ -64,14 +64,17 @@ GEM
     terminal-table (2.0.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     unicode-display_width (1.8.0)
+    webrick (1.7.0)
 
 PLATFORMS
+  universal-darwin-21
   x86_64-linux
 
 DEPENDENCIES
   jekyll (~> 4.2)
   jekyll-remote-theme
   jekyll-seo-tag
+  webrick (~> 1.7)
 
 BUNDLED WITH
-   2.3.9
+   2.3.21
