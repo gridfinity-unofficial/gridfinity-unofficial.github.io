@@ -37,6 +37,11 @@
 }
 
 
+#header_wrap {
+    background: #212121;
+    text-align: center;
+}
+
 
 
 .logo {
@@ -93,11 +98,11 @@ a.jumbo-link:hover > img {
 /* TODO: Make look better and close if not clicked maybe add + - */
 
 .accordion-item{
-    background-color: gray;
+    background-color: #242424;
     border-radius: .4em;
     margin-bottom: 1rem;
     padding: 0.3rem;
-    box-shadow: 0.5rem 2px 0.25rem gray;
+    padding: 5px 10px;
 }
 
 
@@ -105,7 +110,6 @@ a.jumbo-link:hover > img {
     font-size: 1.1rem;
     color: white;
     text-decoration: none;
-    background-color: #283042;
     width: 100%;
     display: flex;
     align-items: center;
@@ -118,7 +122,6 @@ a.jumbo-link:hover > img {
     max-height: 0;
     overflow: hidden;
     position: relative;
-    background-color: #212838;
     transition: max-height 650ms;
 }
 
@@ -146,15 +149,72 @@ a.jumbo-link:hover > img {
 
 
 
-
+#catalogTable {
+    width: 100% !important;
+}
+#catalogTable tr {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+#catalogTable tbody>tr {
+    border: 5px solid #fff;
+}
+#catalogTable tr>th {
+    width: auto !important;
+}
 
 #catalogTable td {
     vertical-align:top;
     text-align:left;
 }
 
+.dataTables_filter {
+    margin-bottom: 5px;
+}
 .catalog-img {
     max-width: 100px;
     display: block;
     margin: 0 auto;
+}
+
+.jumbo-link-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media (min-width: 768px) { 
+    #catalogTable tr {
+        display: table-row;
+    }
+    .jumbo-link-section {
+        flex-direction: row;
+    }
+}
+
+.paginate_button {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.5s;
+    cursor: pointer;
+    
+}
+
+.paginate_button.current  {
+    background: white !important;
+    background-color: white !important;
+    // background: black !important;
+    // color: white !important;
+}
+
+.paginate_button:hover {
+    background: black !important;
+}
+.paginate_button.current:hover {
+    background: #bbb !important;
 }
