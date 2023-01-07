@@ -1,56 +1,63 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: " en-US" }}">
 
-    <head>
-        <meta charset='utf-8'>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width,maximum-scale=2">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-        <link rel="icon" type="image/x-icon" href="/assets/svg/gf_logo_without_label.svg">
-        <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,maximum-scale=2">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="icon" type="image/x-icon" href="/assets/svg/gf_logo_without_label.svg">
+  <link rel="stylesheet" type="text/css" media="screen"
+    href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
-        <link rel="stylesheet" type="text/css" href="/assets/css/jquery.dataTables.min.css">
-        <script type="text/javascript" src="/assets/js/jquery-1.12.4.min.js"></script>
-        <script type="text/javascript" src="/assets/js/jquery.dataTables.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="/assets/css/jquery.dataTables.min.css">
+  <script type="text/javascript" src="/assets/js/jquery-1.12.4.min.js"></script>
+  <script type="text/javascript" src="/assets/js/jquery.dataTables.min.js"></script>
 
-{% seo %}
-    {% include head-custom.html %}
-  </head>
+  {% seo %}
+  {% include head-custom.html %}
+</head>
 
-  <body>
-
-
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-
-          <h1 id="project_title" onclick="location.href='/';" style="cursor: pointer;"><img class="logo" src="/assets/svg/gf_logo_without_label.svg" alt = "logo" width="200"> {{ site.title | default: site.github.repository_name }}</h1>
-          <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+<body>
 
 
 
-        </header>
-    </div>
+  <!-- HEADER -->
+  <div id="header_wrap" class="outer">
+    <header class="inner">
+
+      <h1 id="project_title" onclick="location.href='/';" style="cursor: pointer;"><img class="logo"
+          src="/assets/svg/gf_logo_without_label.svg" alt="logo" width="200"> {{ site.title | default:
+        site.github.repository_name }}</h1>
+      <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
 
 
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        {{ content }}
-      </section>
-    </div>
+    </header>
+  </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        {% if site.github.is_project_page %}
-        <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <a href="https://github.com/gridfinity-unofficial/gridfinity-unofficial.github.io">Edit this site on GitHub</a>
-      </footer>
-    </div>
-  </body>
+
+
+  <!-- MAIN CONTENT -->
+  <div id="main_content_wrap" class="outer">
+    <section id="main_content" class="inner">
+      {{ content }}
+    </section>
+  </div>
+
+  <!-- FOOTER  -->
+  <div id="footer_wrap" class="outer">
+    <footer class="inner">
+      {% if site.github.is_project_page %}
+      <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a
+          href="{{ site.github.owner_url }}" target="_blank">{{ site.github.owner_name }}</a></p>
+      {% endif %}
+      <a href="https://github.com/gridfinity-unofficial/gridfinity-unofficial.github.io" target="_blank">Edit this site
+        on GitHub</a>
+    </footer>
+  </div>
+</body>
+
 </html>
