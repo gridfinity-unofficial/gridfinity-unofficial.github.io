@@ -202,5 +202,16 @@
     "category": "writing implements holders",
     "grid_x": 1,
     "grid_y": 2
+  },
+  {
+    "id": 9820734012346576432,
+    "name": "Gridfinity TOGRack Mount",
+    "creator": "TOGoS",
+    "license": "unimplemented",
+    "url": "https://thangs.com/designer/togos00/3d-model/TOGRack%20Gridfinity%20Baseplate%20v1.2%203x2-850757",
+    "image_url": "https://storage.googleapis.com/production-thangs-public/uploads/attachments/1032efe5-7b0f-4fbf-8e75-001232f2f356/signal-2023-05-02-124745_002.jpeg",
+    "description": "3x3 Gridfinity baseplate with mounting holes for attaching to a 5\" section of 3.5\" TOGRack or to 1.5\" Gridbeam",
+    "grid_x": 3,
+    "grid_y": 2
   }
 ]}
