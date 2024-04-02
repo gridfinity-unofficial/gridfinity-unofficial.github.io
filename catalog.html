@@ -27,6 +27,7 @@ permalink: /catalog/
         console.log(list);
         $('#catalogTable').dataTable( {
             "data": list,
+            "pageLength": 50,
             "columns": [
                 {"title": "Part", "data": null,
                   render: function(data) {
