@@ -4,4 +4,4 @@ plugins:
 markdown: kramdown
 
 title: "Gridfinity"
-description: The modular, open-source grid storage system for your workshop.
+description: The modular, open-source grid storage system.
