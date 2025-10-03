@@ -9,5 +9,5 @@ let
   };
 in stdenv.mkDerivation {
   name = "your-package";
-  buildInputs = [env ruby_3_1];
+  buildInputs = [env ruby_3_1 bundix];
 }
